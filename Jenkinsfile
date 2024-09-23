@@ -3,7 +3,7 @@ pipeline{
 	stages{
 		stage("Start Grid"){
 			steps{
-				sh "docker-compose up -d selenium-hub4 chrome chrome4"
+				sh "docker-compose up -d selenium-hub4 chrome chrome1 chrome2 chrome3 chrome4 chrome5 chrome6"
 				}
 			}
 		stage("Run Test"){
@@ -14,8 +14,7 @@ pipeline{
 		}
 	post{
 		always{
-			archiveArtifacts artifacts: 'output/**'
-			bat "docker-compose down"
+			archiveArtifacts artifacts: 'output/**'			
 		}
 	}
 }
