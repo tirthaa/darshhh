@@ -7,6 +7,8 @@ services:
       - "4442:4442"
       - "4443:4443"
       - "4444:4444"
+      - "4445:4445"
+      - "4446:4446"
 
   chrome:
     image: selenium/node-chrome:beta
