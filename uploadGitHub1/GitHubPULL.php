@@ -20,11 +20,11 @@ $output = `git commit -m "READ_AUto_2 from Server Darshh"`;
 echo $output;
 sleep(4);
 
-$output = `git remote add origin https://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@github.com/tirthaa/darshhh.git`;
+$output = `git remote add origin https://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@github.com/tirthaa/darshhh.git`;
 echo $output;
 sleep(6);
 
-$output = `git remote set-url origin https://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@github.com/tirthaa/darshhh.git`;
+$output = `git remote set-url origin https://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@github.com/tirthaa/darshhh.git`;
 echo $output;
 sleep(5);
 
