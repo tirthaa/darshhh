@@ -1,6 +1,6 @@
 #!/bin/sh
 cd /home/u787416989/domains/leeoqa.com/public_html/TestEnv
-git add TestEnv/leeoqa/QA/*.xls
+git add .
 git config --global user.email "tirtha@leeoqa.com"
 git config --global user.name "tirthaa"
 git commit -m "READ_AUto_2 from Server Darshh" TestEnv/leeoqa/*.xls
